@@ -11,7 +11,7 @@ write-host $users
 # Boucle qui, pour chque utilisateur défini dans le csv ....
 foreach($user in $users){
 
-    # On récupère les différentes données, arrive pas à accéder
+    # On récupère les différentes données
     $username = $user.username
     $firstname = $user.firstname
     $lastname = $user.lastname
